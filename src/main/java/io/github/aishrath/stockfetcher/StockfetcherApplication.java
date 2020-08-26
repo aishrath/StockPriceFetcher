@@ -5,9 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class StockfetcherApplication {
-
-	public static void main(String[] args) {
-		SpringApplication.run(StockfetcherApplication.class, args);
-	}
-
+    public static void main(String[] args) {
+        SpringApplication.run(StockfetcherApplication.class, args);
+    }
 }
