@@ -21,7 +21,7 @@ public class PriceFetchService {
 
         Map<String, String> params = new HashMap<>();
         params.put("types", "quote");
-        params.put("symbols", "DAL");
+        params.put("symbols", ticker);
         params.put("filter", "latestPrice,open,close,change,changePercent,marketCapf");
         params.put("token", TOKEN);
 
