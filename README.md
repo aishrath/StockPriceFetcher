@@ -14,7 +14,7 @@ You will need an API key from IEX for their IEX Cloud API.
 
 ## Invocation
 1. Pull down the application using your favorite git client or CLI
-2. Replace the ```TOKEN``` field in the PriceFetchService.java class with your IEX Cloud API key.
+2. Replace the ```TOKEN``` field in the PriceFetchService.java class with your IEX Cloud API key
 3. Run ```./gradlew bootRun```
 4. Call ```GET /stock?ticker=<symbol>``` or ```GET /stocks?tickers=<comma separated list of symbols>```
 
@@ -34,7 +34,7 @@ HTTP 200 OK
 ```
 
 Request: 
-``` GET /stocks?ticker=DAL, GOOGL, TSLA ```
+``` GET /stocks?tickers=DAL, GOOGL, TSLA ```
 
 Response:
 
